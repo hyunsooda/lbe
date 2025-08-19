@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "fuzzer",
+    "instrument",
+    "coverage_runtime",
+    "asan_runtime",
+    "fuzzer_runtime",
+    "symbolic_runtime",
+    "delta_debugging",
+    "tools",
+    "race_runtime",
+]
+resolver = "2"

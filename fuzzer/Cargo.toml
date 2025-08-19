@@ -1,0 +1,22 @@
+[package]
+name = "fuzzer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.98"
+clap = "4.5.37"
+fuzzer_runtime = { path = "../fuzzer_runtime" }
+coverage_runtime = { path = "../coverage_runtime" }
+delta_debugging = { path = "../delta_debugging" }
+libc = "0.2.172"
+memmap2 = "0.9.5"
+rand = "0.8"
+uuid = { version = "1.16.0", features = ["v4"] }
+ratatui = "0.29.0"
+crossterm = "0.29.0"
+bincode = "1.3"
+
+[dev-dependencies]
+defer-lite = "1.0.0"
+serial_test = "3.2.0"

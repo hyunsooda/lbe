@@ -1,0 +1,6 @@
+[package]
+name = "delta_debugging"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
