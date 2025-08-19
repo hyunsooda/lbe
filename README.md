@@ -1,4 +1,4 @@
-### TextBook: Language-Based Engineering: A Comprehensive Approach to Software Analysis and Hardening
+### [TextBook] Language-Based Engineering: A Comprehensive Approach to Software Analysis and Hardening
 
 This book explores dynamic analysis and hardening in the context of software security and engineering.
 
