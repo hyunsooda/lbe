@@ -1,0 +1,12 @@
+build:
+    clang -g -O0 -S -emit-llvm math.c -o math.ll
+    cargo run --bin instrument -- -i math.ll -o i_math.ll -m coverage
+    clang -c i_math.ll -o math.o
+    clang++ test.cpp math.o -L../../bin/debug -lgtest -lcoverage_runtime -o test_math
+
+run:
+    LD_LIBRARY_PATH=../../bin/debug ./test_math
+
+clean:
+    @rm -f math.ll i_math.ll test_math math.o cov.out
+
