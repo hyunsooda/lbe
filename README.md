@@ -26,6 +26,9 @@ This book explores dynamic analysis and hardening in the context of software sec
 - How to build: Type `just b`
 - How to test: Type `just t`
 
+### Book Download
+Latest version of the book is available at [here](pdf/lbe.pdf)
+
 ### Auther
 
 Hyunsoo Shin (신현수)
