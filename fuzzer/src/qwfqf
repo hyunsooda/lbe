@@ -1,3 +1,0 @@
-clang -g -O0 -S -emit-llvm target.c -o target.ll
-./instrument -i asan-test/target.ll -o itarget.ll -m all
-clang itarget.ll -L. -lcoverage_runtime -lfuzzer_runtime -lasan_runtime
