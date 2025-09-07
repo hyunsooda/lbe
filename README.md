@@ -27,7 +27,7 @@ This book explores dynamic analysis and hardening in the context of software sec
 - How to test: Type `just t`
 
 ### Book Download
-Latest version of the book is available at [here](pdf/lbe.pdf)
+Latest version of the book is available at [here](https://github.com/hyunsooda/hyunsooda.github.io/blob/gh-pages/asset/book.pdf)
 
 ### Auther
 
